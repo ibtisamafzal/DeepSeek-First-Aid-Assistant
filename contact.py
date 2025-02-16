@@ -57,7 +57,7 @@ def contact_page():
 
     with cols[1]:
         st.markdown("""
-        <div style='background-color: #f8f9fa; padding: 20px; border-radius: 10px;'>
+        <div style='background-color: #eb5d3a; padding: 20px; border-radius: 10px;'>
             <h3 style='font-size: 20px;'>📞 Quick Contact</h3>
             <p><i class="fas fa-envelope"></i> Email: adnantariq966@gmail.com</p>
             <p><i class="fas fa-clock"></i> Response Time: Within 24 hours</p>
@@ -111,7 +111,7 @@ def contact_page():
 
     with cols[1]:
         st.markdown("""
-        <div style='background-color: #f8f9fa; padding: 20px; border-radius: 10px;'>
+        <div style='background-color: #eb5d3a; padding: 20px; border-radius: 10px;'>
             <h3 style='font-size: 20px;'>📞 Quick Contact</h3>
             <p><i class="fas fa-envelope"></i> Email: adnantariq966@gmail.com</p>
             <p><i class="fas fa-clock"></i> Response Time: Within 24 hours</p>
@@ -127,7 +127,7 @@ def contact_page():
     
     with cols[0]:
         st.markdown("""
-        <div style='background-color: #f8f9fa; padding: 20px; border-radius: 10px;'>
+        <div style='background-color: #eb5d3a; padding: 20px; border-radius: 10px;'>
             <h3 style='font-size: 20px;'><i class="fas fa-map-marker-alt"></i> Office Address</h3>
             <p style='margin-top: 10px;'><b>Location Code:</b> J4RX+JJ</p>
             <p><b>City:</b> Sahiwal</p>
