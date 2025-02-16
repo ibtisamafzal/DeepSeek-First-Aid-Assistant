@@ -160,7 +160,7 @@ def about_page():
     # Footer
     st.markdown("---")
     st.markdown(
-        '<p style="text-align: center;">© 2024 DeepSeek First-Aid Assistant. All Rights Reserved.<br>Crafted with ❤️ for emergency preparedness</p>',
+        '<p style="text-align: center;">© 2025 DeepSeek First-Aid Assistant. All Rights Reserved.<br>Crafted with ❤️ for emergency preparedness</p>',
         unsafe_allow_html=True
     )
 
