@@ -64,6 +64,84 @@ def contact_page():
             <p><i class="fas fa-globe"></i> Available: 24/7 for emergency guidance</p>
         </div>
         """, unsafe_allow_html=True)
+        
+    
+    import streamlit as st
+
+def contact_page():
+    # [Previous imports and style definitions remain the same...]
+
+    # Title Section
+    st.markdown("<h1 style='font-size: 60px; text-align: center;'>Contact Us</h1>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size: 20px; text-align: center; color: gray;'>Need assistance or have feedback? We're here to help!</p>", unsafe_allow_html=True)
+
+    # Emergency Notice
+    st.markdown("""
+    <div style='background-color: #f8d7da; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+        <h3 style='color: #721c24; font-size: 18px;'>⚠️ Emergency Notice</h3>
+        <p style='color: #721c24;'>If you're experiencing a medical emergency, please contact emergency services immediately:</p>
+        <ul style='color: #721c24;'>
+            <li>Emergency Services: Call your local emergency number (e.g., 911 in the US)</li>
+            <li>Poison Control: Contact your national poison control center</li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Contact Form and Quick Contact
+    st.markdown("<h2 style='font-size: 30px;'>📬 Get in Touch</h2>", unsafe_allow_html=True)
+    st.write("Have questions about our First-Aid Assistant? Fill out the form below:")
+
+    cols = st.columns([2, 1])
+    with cols[0]:
+        contact_form = st.form(key='contact_form')
+        name = contact_form.text_input("Your Name")
+        email = contact_form.text_input("Your Email")
+        category = contact_form.selectbox(
+            "Inquiry Type",
+            ["General Question", "Technical Support", "Feature Request", "Bug Report", "Other"]
+        )
+        message = contact_form.text_area("Your Message")
+        submit_button = contact_form.form_submit_button("Send Message")
+        
+        if submit_button:
+            if name and email and message:
+                st.success("Thank you for reaching out! Our team will get back to you within 24 hours.")
+            else:
+                st.error("Please fill in all required fields.")
+
+    with cols[1]:
+        st.markdown("""
+        <div style='background-color: #f8f9fa; padding: 20px; border-radius: 10px;'>
+            <h3 style='font-size: 20px;'>📞 Quick Contact</h3>
+            <p><i class="fas fa-envelope"></i> Email: adnantariq966@gmail.com</p>
+            <p><i class="fas fa-clock"></i> Response Time: Within 24 hours</p>
+            <p><i class="fas fa-globe"></i> Available: 24/7 for emergency guidance</p>
+        </div>
+        """, unsafe_allow_html=True)
+
+    # Location Section
+    st.markdown("---")
+    st.markdown("<h2 style='font-size: 30px;'>📍 Our Location</h2>", unsafe_allow_html=True)
+    
+    cols = st.columns([1, 2])
+    
+    with cols[0]:
+        st.markdown("""
+        <div style='background-color: #f8f9fa; padding: 20px; border-radius: 10px;'>
+            <h3 style='font-size: 20px;'><i class="fas fa-map-marker-alt"></i> Office Address</h3>
+            <p style='margin-top: 10px;'><b>Location Code:</b> J4RX+JJ</p>
+            <p><b>City:</b> Sahiwal</p>
+            <p><b>Country:</b> Pakistan</p>
+            <p style='margin-top: 15px;'><i class="fas fa-info-circle"></i> Our team is based at COMSATS University Islamabad, Sahiwal Campus</p>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    with cols[1]:
+        st.markdown("""
+        <div style='width: 100%; height: 300px; border-radius: 10px; overflow: hidden;'>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3432.7280462261438!2d73.14653207406931!3d30.641621074628343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922b6e4dde0c501%3A0xc37ea3d85326203!2sCOMSATS%20University%20Islamabad%20-%20Sahiwal%20Campus!5e0!3m2!1sen!2s!4v1739714849946!5m2!1sen!2s" width="1000" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        """, unsafe_allow_html=True)
 
     # FAQ Section
     st.markdown("---")
