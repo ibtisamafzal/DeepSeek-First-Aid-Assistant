@@ -64,10 +64,10 @@ This **AI-powered assistant** reduces panic, improves response time, and ensures
 ## 🏗️ **Technology Stack**  
 | **Component**      | **Technology Used**  |
 |--------------------|---------------------|
-| **Frontend**       | Streamlit (Python)  |
+| **Frontend**       | Streamlit |
 | **AI Model**       | Mistral-7B (Hugging Face API)  |
-| **APIs**           | YouTube API, Country Info API  |
-| **Backend**        | Python (Flask for API integrations)  |
+| **APIs**           | YouTube API |
+| **Backend**        | Python |
 | **Deployment**     | Hugging Face / Streamlit Cloud  |
 
 ---
