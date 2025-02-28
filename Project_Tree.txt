@@ -1,0 +1,32 @@
+
+```
+DeepSeek-First-Aid-Assistant
+├─ .devcontainer
+│  └─ devcontainer.json
+├─ about.py
+├─ app.py
+├─ assets
+│  ├─ member01.jpg
+│  ├─ member02.JPG
+│  └─ member03.JPG
+├─ contact.py
+├─ home.py
+├─ README.md
+├─ requirements.txt
+├─ utils
+│  ├─ api_utils.py
+│  ├─ emergency_utils.py
+│  ├─ youtube_utils.py
+│  ├─ __init__.py
+│  └─ __pycache__
+│     ├─ api_utils.cpython-312.pyc
+│     ├─ emergency_utils.cpython-312.pyc
+│     ├─ youtube_utils.cpython-312.pyc
+│     └─ __init__.cpython-312.pyc
+├─ __init__.py
+└─ __pycache__
+   ├─ about.cpython-312.pyc
+   ├─ contact.cpython-312.pyc
+   └─ home.cpython-312.pyc
+
+```
