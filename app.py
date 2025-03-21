@@ -1,3 +1,5 @@
+# This Python script is creating a Streamlit web application for a first-aid assistant called
+# "DeepSeek First-Aid Assistant". Here is a breakdown of what the script is doing:
 import streamlit as st
 import os
 from dotenv import load_dotenv
