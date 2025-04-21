@@ -7,7 +7,7 @@ The **Emergency First Aid Assistant** is an **AI-powered web application** desig
 ✅ **Step-by-step first-aid procedures**  
 ✅ **Relevant YouTube video tutorials**  
 ✅ **Country-specific emergency numbers**  
-✅ **One-click emergency call button**  
+✅ **One-click emergency call button.**  
 
 The app ensures **quick, reliable, and context-aware responses** to medical emergencies, helping users take immediate action before professional medical help arrives.
 
